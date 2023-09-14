@@ -13,11 +13,8 @@
 }
 body{
     background-color: var(--color-bg-body);
-}
-.wrapper{
     width: 100vw;
     height: calc(100vh - 200px);
-    position: relative;
 }
 .top-option{
     position: absolute;
@@ -36,9 +33,14 @@ body{
 .debug{
     border: 2px solid var(--color-white-var);
 }
-.container{
+main{
     width: 90%;
     height: 90%;
+    margin: 0 auto;
+}
+.container{
+    width: 100%;
+    height: 100%;
     margin: 0 auto;
     display: flex;
     flex-flow: row wrap;
@@ -66,4 +68,69 @@ body{
     color: var(--color-white-var);
     background-color: rgba(74, 74, 74,0.6);
     padding: 5px;
+}
+footer{
+    background-color: var(--color-bg-footer);
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+}
+.footer-container{
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mute-stopvideo{
+    height: 100%;
+    width: 300px;
+    color: var(--color-white-var);
+}
+.mute-stopvideo > div > i{
+    font-size: 35px;
+    display: inline-block;
+    position: relative;
+}
+.mute{
+    padding-left: 20px;
+}
+.video{
+    margin-left: 70px;
+}
+.video2{
+    margin-left: 50px;
+}
+.sgorbietto{
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+}
+.sgorb1{
+    top: 40px;
+    left: 65px;
+}
+.sgorb2{
+    top: 40px;
+    left: 180px;
+}
+.padding-top{
+    padding-top: 20px;
+}
+.padding-bot{
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+.end-meeting{
+    height: 100%;
+    color: var(--color-red-var);
+    font-size: 15px;
+    font-weight: bold;
+    background-color: var(--color-grey-var);
+    text-align: center;
+    line-height: 100px;
+    padding: 0 15px;
 }
