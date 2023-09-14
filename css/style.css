@@ -117,12 +117,39 @@ footer{
     top: 40px;
     left: 180px;
 }
+.sgorb3{
+    font-size: 20px;
+    font-weight: bold;
+    margin:0 10px ;
+}
 .padding-top{
     padding-top: 20px;
 }
 .padding-bot{
     padding-bottom: 20px;
     padding-top: 5px;
+}
+.option{
+    height: 100%;
+    width: 50%;
+    color: var(--color-white-var);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    font-size: 35px;
+    padding-bottom: 10px;
+
+}
+.holder{
+    margin-left: 20px;
+}
+.exception{
+    margin-left: 35px;
+}
+.share{
+    color: var(--color-green-var);
 }
 .end-meeting{
     height: 100%;
